@@ -6,6 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Background Layers</title>
     <style>
+        .bg-box {
+            width: 100vw;
+            height: 100vh;
+            background-color: green;
+
+            background-image:
+                /* трава внизу */
+                url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"),
+                /* лампочки зверху */
+                url("https://www.freeiconspng.com/uploads/lamp-png-0.png"),
+                /* їжачки зліва */
+                url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru"),
+                /* пончики справа */
+                url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png"),
+                /* головне зображення */
+                url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg");
+
+            background-repeat:
+                repeat-x,
+                /* трава */
+                repeat-x,
+                /* лампочки */
+                repeat-y,
+                /* їжачки */
+                repeat-y,
+                /* пончики */
+                no-repeat;
+            /* основне зображення */
+
+            background-position:
+                bottom,
+                /* трава */
+                top,
+                /* лампочки */
+                left,
+                /* їжачки */
+                right,
+                /* пончики */
+                center;
+            /* основне зображення */
+
+            background-size:
+                500px,
+                /* трава */
+                50px,
+                /* лампочки */
+                40px,
+                /* їжачки */
+                40px,
+                /* пончики */
+                800px auto;
+            /* основне зображення */
+        }
     </style>
 </head>
 
